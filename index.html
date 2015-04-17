@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+
+<title>Sample Animation</title>
+
+<!-- Global -->
+<script src="_assets/js/jquery-1.7.1.min.js"></script>
+<link rel="stylesheet" href="_assets/css/styles.css" />
+</head>
+<body>
+<div id="wrapper">
+    <section id="line-wrap">
+        <header>
+            <h1>Line Chart Animation</h1>
+        </header>
+        <article id="lineChart" class="chart animate">
+            <div id="xyAxis">&nbsp;</div>
+            <div id="line1">&nbsp;</div>
+            <div id="line2">&nbsp;</div>
+            <div id="arrow">&nbsp;</div>
+            <div id="labels">&nbsp;</div>
+        </article>
+        <a class="replay" onclick="replayAnimation(); return false;">Replay</a>
+    </section>
+    <section class="card-holder">
+        <header>
+            <h1>Card Flip Animation</h1>
+        </header>
+        <article id="cards">
+            <div id="clubs-jack">
+                <span class="back"></span>
+                <span class="front"></span>
+            </div>
+           <div id="diamonds-queen">
+                <span class="back"></span>
+                <span class="front"></span>
+            </div>
+            <div id="hearts-king">
+                <span class="back"></span>
+                <span class="front"></span>
+            </div>
+            <div id="spades-ace">
+                <span class="back"></span>
+                <span class="front"></span>
+            </div>
+        </article>
+    </section>
+
+</div><!--end #wrapper-->
+<script src="_assets/js/scripts.js" /></script>
+</body>
+</html>
